@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.cel  binary
+*.aifc binary
+*.aiff binary
+*.o    binary
+*.a    binary
+*.stream binary
