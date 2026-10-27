@@ -8,15 +8,15 @@ OBJECTS = GetTogetherGameHW.c.o
 
 
 
-GetTogetherGameHW ÄÄ GetTogetherGameHW.make {OBJECTS}
-	Link -t APPL -c '????' ¶
-		{OBJECTS} ¶
-		"{CLibraries}"CSANELib.o ¶
-		"{CLibraries}"Math.o ¶
-		#"{CLibraries}"Complex.o ¶
-		"{CLibraries}"StdClib.o ¶
-		"{Libraries}"Runtime.o ¶
-		"{Libraries}"Interface.o ¶
+GetTogetherGameHW Æ’Æ’ GetTogetherGameHW.make {OBJECTS}
+	Link -t APPL -c '????' âˆ‚
+		{OBJECTS} âˆ‚
+		"{CLibraries}"CSANELib.o âˆ‚
+		"{CLibraries}"Math.o âˆ‚
+		#"{CLibraries}"Complex.o âˆ‚
+		"{CLibraries}"StdClib.o âˆ‚
+		"{Libraries}"Runtime.o âˆ‚
+		"{Libraries}"Interface.o âˆ‚
 		-o GetTogetherGameHW
-GetTogetherGameHW.c.o Ä GetTogetherGameHW.make GetTogetherGameHW.c
+GetTogetherGameHW.c.o Æ’ GetTogetherGameHW.make GetTogetherGameHW.c
 	 C -r  GetTogetherGameHW.c

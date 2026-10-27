@@ -8,15 +8,15 @@ OBJECTS = Get32.c.o
 
 
 
-Get32 ÄÄ Get32.make {OBJECTS}
-	Link -t APPL -c '????' ¶
-		{OBJECTS} ¶
-		"{CLibraries}"CSANELib.o ¶
-		"{CLibraries}"Math.o ¶
-		#"{CLibraries}"Complex.o ¶
-		"{CLibraries}"StdClib.o ¶
-		"{Libraries}"Runtime.o ¶
-		"{Libraries}"Interface.o ¶
+Get32 Æ’Æ’ Get32.make {OBJECTS}
+	Link -t APPL -c '????' âˆ‚
+		{OBJECTS} âˆ‚
+		"{CLibraries}"CSANELib.o âˆ‚
+		"{CLibraries}"Math.o âˆ‚
+		#"{CLibraries}"Complex.o âˆ‚
+		"{CLibraries}"StdClib.o âˆ‚
+		"{Libraries}"Runtime.o âˆ‚
+		"{Libraries}"Interface.o âˆ‚
 		-o Get32
-Get32.c.o Ä Get32.make Get32.c
+Get32.c.o Æ’ Get32.make Get32.c
 	 C -r  Get32.c

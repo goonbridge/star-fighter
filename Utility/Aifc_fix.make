@@ -8,15 +8,15 @@ OBJECTS = Aifc_fix.c.o
 
 
 
-Aifc_fix ÄÄ Aifc_fix.make {OBJECTS}
-	Link -t APPL -c '????' ¶
-		{OBJECTS} ¶
-		"{CLibraries}"CSANELib.o ¶
-		"{CLibraries}"Math.o ¶
-		#"{CLibraries}"Complex.o ¶
-		"{CLibraries}"StdClib.o ¶
-		"{Libraries}"Runtime.o ¶
-		"{Libraries}"Interface.o ¶
+Aifc_fix Æ’Æ’ Aifc_fix.make {OBJECTS}
+	Link -t APPL -c '????' âˆ‚
+		{OBJECTS} âˆ‚
+		"{CLibraries}"CSANELib.o âˆ‚
+		"{CLibraries}"Math.o âˆ‚
+		#"{CLibraries}"Complex.o âˆ‚
+		"{CLibraries}"StdClib.o âˆ‚
+		"{Libraries}"Runtime.o âˆ‚
+		"{Libraries}"Interface.o âˆ‚
 		-o Aifc_fix
-Aifc_fix.c.o Ä Aifc_fix.make Aifc_fix.c
+Aifc_fix.c.o Æ’ Aifc_fix.make Aifc_fix.c
 	 C -r  Aifc_fix.c

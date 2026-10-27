@@ -8,15 +8,15 @@ OBJECTS = Get16Data.c.o
 
 
 
-Get16Data ÄÄ Get16Data.make {OBJECTS}
-	Link -t APPL -c '????' ¶
-		{OBJECTS} ¶
-		"{CLibraries}"CSANELib.o ¶
-		"{CLibraries}"Math.o ¶
-		#"{CLibraries}"Complex.o ¶
-		"{CLibraries}"StdClib.o ¶
-		"{Libraries}"Runtime.o ¶
-		"{Libraries}"Interface.o ¶
+Get16Data Æ’Æ’ Get16Data.make {OBJECTS}
+	Link -t APPL -c '????' âˆ‚
+		{OBJECTS} âˆ‚
+		"{CLibraries}"CSANELib.o âˆ‚
+		"{CLibraries}"Math.o âˆ‚
+		#"{CLibraries}"Complex.o âˆ‚
+		"{CLibraries}"StdClib.o âˆ‚
+		"{Libraries}"Runtime.o âˆ‚
+		"{Libraries}"Interface.o âˆ‚
 		-o Get16Data
-Get16Data.c.o Ä Get16Data.make Get16Data.c
+Get16Data.c.o Æ’ Get16Data.make Get16Data.c
 	 C -r  Get16Data.c

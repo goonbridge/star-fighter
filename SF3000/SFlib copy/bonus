@@ -1,1 +1,24 @@
-File "Explosion.c"; Line ฅ!3792:ค!15	# 		if ( (bit_mask&( 1<<(explosion_data->bonus) )) == 0 )File "Explosion.c"; Line ฅ!3895:ค!15	# 			node_data.x_pos = (explosion_data->x_pos) ;File "Explosion.c"; Line ฅ!3942:ค!15	# 			node_data.y_pos = (explosion_data->y_pos) ;File "Explosion.c"; Line ฅ!3989:ค!15	# 			node_data.z_pos = (explosion_data->z_pos) ;File "Explosion.c"; Line ฅ!4274:ค!15	# 			node_data.x_pos = (explosion_data->x_pos2) ;File "Explosion.c"; Line ฅ!4322:ค!15	# 			node_data.y_pos = (explosion_data->y_pos2) ;File "Explosion.c"; Line ฅ!4370:ค!15	# 			node_data.z_pos = (explosion_data->z_pos2) ;File "Explosion.c"; Line ฅ!4808:ค!15	# 									explosion_data->colour1 ,File "Explosion.c"; Line ฅ!4843:ค!15	# 									explosion_data->colour2 ,File "Explosion.c"; Line ฅ!9558:ค!15	# 	if ( (bit_mask&( 1<<(explosion_data->bonus) )) == 0 )File "Explosion.c"; Line ฅ!9645:ค!15	# 								x_pos + explosion_data->x_pos ,File "Explosion.c"; Line ฅ!9685:ค!15	# 								y_pos + explosion_data->y_pos ,File "Explosion.c"; Line ฅ!9725:ค!15	# 								z_pos + explosion_data->z_pos ,File "Explosion.c"; Line ฅ!9765:ค!15	# 								x_pos + explosion_data->x_pos2 ,File "Explosion.c"; Line ฅ!9806:ค!15	# 								y_pos + explosion_data->y_pos2 ,File "Explosion.c"; Line ฅ!9847:ค!15	# 								z_pos + explosion_data->z_pos2 ,File "Explosion.c"; Line ฅ!9880:ค!15	# 								explosion_data->colour1 ,File "Explosion.c"; Line ฅ!9914:ค!15	# 								explosion_data->colour2 ,File "Explosion.c"; Line ฅ!22891:ค!15	# printf("exp ref %d\n",explosion_data->bonus);File "Explosion.c"; Line ฅ!22921:ค!15	# 	if (explosion_data->bonus == which_group)File "Explosion.c"; Line ฅ!23024:ค!15	# 		x_pos += (explosion_data->x_pos + explosion_data->x_pos2) ;File "Explosion.c"; Line ฅ!23086:ค!15	# 		y_pos += (explosion_data->y_pos + explosion_data->y_pos2) ;File "Explosion.c"; Line ฅ!23148:ค!15	# 		z_pos += (explosion_data->z_pos + explosion_data->z_pos2) ;File "Setup_Tables.c"; Line ฅ!3993:ค!15	# printf("exp ref when compiled %d\n",explosion_data->bonus);
+File "Explosion.c"; Line โ€ข!3792:ยง!15	# 		if ( (bit_mask&( 1<<(explosion_data->bonus) )) == 0 )
+File "Explosion.c"; Line โ€ข!3895:ยง!15	# 			node_data.x_pos = (explosion_data->x_pos) ;
+File "Explosion.c"; Line โ€ข!3942:ยง!15	# 			node_data.y_pos = (explosion_data->y_pos) ;
+File "Explosion.c"; Line โ€ข!3989:ยง!15	# 			node_data.z_pos = (explosion_data->z_pos) ;
+File "Explosion.c"; Line โ€ข!4274:ยง!15	# 			node_data.x_pos = (explosion_data->x_pos2) ;
+File "Explosion.c"; Line โ€ข!4322:ยง!15	# 			node_data.y_pos = (explosion_data->y_pos2) ;
+File "Explosion.c"; Line โ€ข!4370:ยง!15	# 			node_data.z_pos = (explosion_data->z_pos2) ;
+File "Explosion.c"; Line โ€ข!4808:ยง!15	# 									explosion_data->colour1 ,
+File "Explosion.c"; Line โ€ข!4843:ยง!15	# 									explosion_data->colour2 ,
+File "Explosion.c"; Line โ€ข!9558:ยง!15	# 	if ( (bit_mask&( 1<<(explosion_data->bonus) )) == 0 )
+File "Explosion.c"; Line โ€ข!9645:ยง!15	# 								x_pos + explosion_data->x_pos ,
+File "Explosion.c"; Line โ€ข!9685:ยง!15	# 								y_pos + explosion_data->y_pos ,
+File "Explosion.c"; Line โ€ข!9725:ยง!15	# 								z_pos + explosion_data->z_pos ,
+File "Explosion.c"; Line โ€ข!9765:ยง!15	# 								x_pos + explosion_data->x_pos2 ,
+File "Explosion.c"; Line โ€ข!9806:ยง!15	# 								y_pos + explosion_data->y_pos2 ,
+File "Explosion.c"; Line โ€ข!9847:ยง!15	# 								z_pos + explosion_data->z_pos2 ,
+File "Explosion.c"; Line โ€ข!9880:ยง!15	# 								explosion_data->colour1 ,
+File "Explosion.c"; Line โ€ข!9914:ยง!15	# 								explosion_data->colour2 ,
+File "Explosion.c"; Line โ€ข!22891:ยง!15	# printf("exp ref %d\n",explosion_data->bonus);
+File "Explosion.c"; Line โ€ข!22921:ยง!15	# 	if (explosion_data->bonus == which_group)
+File "Explosion.c"; Line โ€ข!23024:ยง!15	# 		x_pos += (explosion_data->x_pos + explosion_data->x_pos2) ;
+File "Explosion.c"; Line โ€ข!23086:ยง!15	# 		y_pos += (explosion_data->y_pos + explosion_data->y_pos2) ;
+File "Explosion.c"; Line โ€ข!23148:ยง!15	# 		z_pos += (explosion_data->z_pos + explosion_data->z_pos2) ;
+File "Setup_Tables.c"; Line โ€ข!3993:ยง!15	# printf("exp ref when compiled %d\n",explosion_data->bonus);

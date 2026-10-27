@@ -8,15 +8,15 @@ OBJECTS = GetAnim.c.o
 
 
 
-GetAnim ÄÄ GetAnim.make {OBJECTS}
-	Link -t APPL -c '????' ¶
-		{OBJECTS} ¶
-		"{CLibraries}"CSANELib.o ¶
-		"{CLibraries}"Math.o ¶
-		#"{CLibraries}"Complex.o ¶
-		"{CLibraries}"StdClib.o ¶
-		"{Libraries}"Runtime.o ¶
-		"{Libraries}"Interface.o ¶
+GetAnim Æ’Æ’ GetAnim.make {OBJECTS}
+	Link -t APPL -c '????' âˆ‚
+		{OBJECTS} âˆ‚
+		"{CLibraries}"CSANELib.o âˆ‚
+		"{CLibraries}"Math.o âˆ‚
+		#"{CLibraries}"Complex.o âˆ‚
+		"{CLibraries}"StdClib.o âˆ‚
+		"{Libraries}"Runtime.o âˆ‚
+		"{Libraries}"Interface.o âˆ‚
 		-o GetAnim
-GetAnim.c.o Ä GetAnim.make GetAnim.c
+GetAnim.c.o Æ’ GetAnim.make GetAnim.c
 	 C -r  GetAnim.c

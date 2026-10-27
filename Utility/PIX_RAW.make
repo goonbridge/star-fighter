@@ -8,15 +8,15 @@ OBJECTS = PIX_RAW.c.o
 
 
 
-PIX_RAW ÄÄ PIX_RAW.make {OBJECTS}
-	Link -t APPL -c '????' ¶
-		{OBJECTS} ¶
-		"{CLibraries}"CSANELib.o ¶
-		"{CLibraries}"Math.o ¶
-		#"{CLibraries}"Complex.o ¶
-		"{CLibraries}"StdClib.o ¶
-		"{Libraries}"Runtime.o ¶
-		"{Libraries}"Interface.o ¶
+PIX_RAW Æ’Æ’ PIX_RAW.make {OBJECTS}
+	Link -t APPL -c '????' âˆ‚
+		{OBJECTS} âˆ‚
+		"{CLibraries}"CSANELib.o âˆ‚
+		"{CLibraries}"Math.o âˆ‚
+		#"{CLibraries}"Complex.o âˆ‚
+		"{CLibraries}"StdClib.o âˆ‚
+		"{Libraries}"Runtime.o âˆ‚
+		"{Libraries}"Interface.o âˆ‚
 		-o PIX_RAW
-PIX_RAW.c.o Ä PIX_RAW.make PIX_RAW.c
+PIX_RAW.c.o Æ’ PIX_RAW.make PIX_RAW.c
 	 C -r  PIX_RAW.c

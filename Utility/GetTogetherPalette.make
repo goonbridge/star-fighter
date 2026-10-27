@@ -8,15 +8,15 @@ OBJECTS = GetTogetherPalette.c.o
 
 
 
-GetTogetherPalette ÄÄ GetTogetherPalette.make {OBJECTS}
-	Link -t APPL -c '????' ¶
-		{OBJECTS} ¶
-		"{CLibraries}"CSANELib.o ¶
-		"{CLibraries}"Math.o ¶
-		#"{CLibraries}"Complex.o ¶
-		"{CLibraries}"StdClib.o ¶
-		"{Libraries}"Runtime.o ¶
-		"{Libraries}"Interface.o ¶
+GetTogetherPalette Æ’Æ’ GetTogetherPalette.make {OBJECTS}
+	Link -t APPL -c '????' âˆ‚
+		{OBJECTS} âˆ‚
+		"{CLibraries}"CSANELib.o âˆ‚
+		"{CLibraries}"Math.o âˆ‚
+		#"{CLibraries}"Complex.o âˆ‚
+		"{CLibraries}"StdClib.o âˆ‚
+		"{Libraries}"Runtime.o âˆ‚
+		"{Libraries}"Interface.o âˆ‚
 		-o GetTogetherPalette
-GetTogetherPalette.c.o Ä GetTogetherPalette.make GetTogetherPalette.c
+GetTogetherPalette.c.o Æ’ GetTogetherPalette.make GetTogetherPalette.c
 	 C -r  GetTogetherPalette.c

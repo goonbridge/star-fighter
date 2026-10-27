@@ -8,15 +8,15 @@ OBJECTS = Get_ImageRaw.c.o
 
 
 
-Get_ImageRaw ÄÄ Get_ImageRaw.make {OBJECTS}
-	Link -t APPL -c '????' ¶
-		{OBJECTS} ¶
-		"{CLibraries}"CSANELib.o ¶
-		"{CLibraries}"Math.o ¶
-		#"{CLibraries}"Complex.o ¶
-		"{CLibraries}"StdClib.o ¶
-		"{Libraries}"Runtime.o ¶
-		"{Libraries}"Interface.o ¶
+Get_ImageRaw Æ’Æ’ Get_ImageRaw.make {OBJECTS}
+	Link -t APPL -c '????' âˆ‚
+		{OBJECTS} âˆ‚
+		"{CLibraries}"CSANELib.o âˆ‚
+		"{CLibraries}"Math.o âˆ‚
+		#"{CLibraries}"Complex.o âˆ‚
+		"{CLibraries}"StdClib.o âˆ‚
+		"{Libraries}"Runtime.o âˆ‚
+		"{Libraries}"Interface.o âˆ‚
 		-o Get_ImageRaw
-Get_ImageRaw.c.o Ä Get_ImageRaw.make Get_ImageRaw.c
+Get_ImageRaw.c.o Æ’ Get_ImageRaw.make Get_ImageRaw.c
 	 C -r  Get_ImageRaw.c
